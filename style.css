@@ -1,0 +1,53 @@
+:root {
+    --link-color:#7D7D7D;
+    --text1-color:#B4AD9E;
+    --photo-color:#626262 ;
+    --text2-color:#626262 ;
+    --buton-color:#626262 ;
+ }
+ body {
+     font-family: 'Playfair Display', 'sans-serif';
+ }
+ .header-link {
+     color: var(--link-color) ;
+     text-decoration: none;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 18.66px;
+ }
+ .photoblog-text1 {
+     font-family: 'Ubuntu';
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 16.09px;
+     color: var(--text1-color);
+ }
+ .photoblog-title {
+     font-weight: 400;
+     font-size: 30px;
+     line-height: 39.99px;
+     color: var(--photo-color);
+ }
+ .photoblog-text2 {
+     font-weight: 400;
+     font-size: 14px;
+ line-height: 18.66px;
+     color: var(--text2-color);
+ }
+
+button {
+    border:solid gray 1px;
+    color: var(--buton-color);
+    padding: 40px;
+    margin: 100px;
+    background-color: white;
+    width: 250px;
+}
+.photoblog-button {
+    text-align: center;
+}
+.container{
+    width: 906px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
